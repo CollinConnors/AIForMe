@@ -1,0 +1,31 @@
+site_name: AI For Me - In School, In Work, In Life
+site_url: https://localhost/mysite
+
+theme:
+  name: material
+  logo: assets/images/logo.png #Course Logo
+  favicon: assets/images/favicon.ico #Course Favicon
+  palette:
+    - scheme: default #Light Mode color scheme
+      primary: custom
+      accent: custom
+      toggle: #Used to switch between light and dark modes
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate #Dark Mode color scheme
+      primary: custom
+      accent: custom
+      toggle: #Used to switch between light and dark modes
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - toc.integrate
+
+extra_css:
+  - styles/extra.css #File that has the color shceme
+
+markdown_extensions:
+  - admonition            # Enables block-styled notes/warnings/etc. (required for "note" dropdown styling)
+  - pymdownx.details      # Adds collapsible sections using ??? syntax (used for Slides/Lecture/HW/References dropdowns)
+  - pymdownx.superfences  # Allows code blocks and complex content (e.g., HTML iframes) inside admonitions/details without breaking formatting
+  - attr_list             # Lets you add HTML attributes (e.g., width/height/style) directly to Markdown elements

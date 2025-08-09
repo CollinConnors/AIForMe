@@ -1,0 +1,3 @@
+# Welcome to AI For Me
+AI for Me is a hands-on, introductory course that explores how cutting-edge artificial intelligence tools can enhance your academic, professional, and personal life. You'll learn how AI works, where it came from, and why it matters. From using AI to write papers, build resumes, or prepare presentations, to analyzing data, creating digital art, or exploring hobbies, this course shows how AI can help you do things better, faster, and smarter. Whether you're looking to boost your grades, level up your LinkedIn, or just planning your Spring Break, AI for Me unleashes the power of AI in a practical and personal way
+
