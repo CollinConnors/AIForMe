@@ -18,9 +18,40 @@ The site hosts lecture slides, videos, homework problems, and reference material
 
 
 ## 🚀 Deployment
+To host the server locally:
+```bash
+mkdocs server
+```
 
-> **Coming Soon:** Instructions for deploying with **Docker** and **Nginx**.
+To build to site for deployment:
+```bash
+mkdocs build --clean
+```
 
+To deploy site using just docker
+```bash
+docker build -t ai_for_me ./nginx
+docker run -d --name AIForMe -p 80:80 -p 443:443 ai_for_me
+```
+Note: You must build the site first and then you can deploy. Docker needs to be running and this command needs to be run from the AIForMe directory (top level of this project)
+
+To bring site down:
+```bash
+docker stop AIForMe
+```
+
+TODO: Create steps for installing SSL certificate so it can be deployed on HTTPS
+
+To deploy site using docker compose (This is the recommended way):
+```bash
+docker compose up --build -d
+```
+Note: You **do not** need to build the site first if build times get to be to long you can switch to the pervious deployment. Docker needs to be running and this command needs to be run from the AIForMe directory (top level of this project)
+
+To bring site down (docker compose):
+```bash
+docker compose down
+```
 
 ## ➕ Adding a Lecture
 
@@ -106,3 +137,8 @@ mkdocs.yml           # MkDocs configuration
 
 TBD – Choose an appropriate license for course materials.
 
+## Version Notes
+python 3.12.7
+mkdocs 1.6.1
+mkdocs-materials 9.6.16
+nginx mianline-alpine:3.22
