@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css"); /* Bring in the Material Design Icons */
+
+/* Light mode */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #f47321;
+  --md-accent-fg-color: #005030;
+  --md-default-bg-color: #ffffff;
+  --md-default-fg-color: #000000;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #f47321;
+  --md-accent-fg-color: #005030;
+  --md-default-bg-color: #101010;
+  --md-default-fg-color: #ffffff;
+}
+
+/* Group the four types so they share the same look */
+.md-typeset .admonition.slides,
+.md-typeset details.slides,
+.md-typeset .admonition.recording,
+.md-typeset details.recording,
+.md-typeset .admonition.homework,
+.md-typeset details.homework,
+.md-typeset .admonition.references,
+.md-typeset details.references {
+  border-color: #005030;
+}
+
+/* Header (clickable summary) background + text */
+.md-typeset .admonition.slides > .admonition-title,
+.md-typeset details.slides > summary,
+.md-typeset .admonition.recording > .admonition-title,
+.md-typeset details.recording > summary,
+.md-typeset .admonition.homework > .admonition-title,
+.md-typeset details.homework > summary,
+.md-typeset .admonition.references > .admonition-title,
+.md-typeset details.references > summary {
+  background-color: #005030;
+  color: #ffffff;
+}
+
+/* ---- IMPORTANT: fully disable the theme's default icon ---- */
+.md-typeset :is(.admonition.slides, details.slides,
+                .admonition.recording, details.recording,
+                .admonition.homework,  details.homework,
+                .admonition.references, details.references)
+  > :is(.admonition-title, summary)::before {
+  /* nuke the masked SVG the theme adds */
+  content: none !important;
+  background: none !important;
+  -webkit-mask: none !important;
+  mask: none !important;
+  width: auto !important;
+  margin: 0 !important;
+}
+
+/* ---- Add your own glyph (emoji – works without extra fonts) ---- */
+/* Slides */
+.md-typeset :is(.admonition.slides, details.slides)
+  > :is(.admonition-title, summary)::before {
+  font-family: "Material Design Icons";
+  content: "\F0428" !important; /* Unicode for presentation screen emoji */
+  margin-right: .5rem;
+  color: #f47321;
+  display: inline-block;
+}
+
+/* Recording */
+.md-typeset :is(.admonition.recording, details.recording)
+  > :is(.admonition-title, summary)::before {
+  font-family: "Material Design Icons";
+  content: "\F00FD" !important; /* Unicode for video emoji */
+  margin-right: .5rem;
+  color: #f47321;
+  display: inline-block;
+}
+
+/* Homework */
+.md-typeset :is(.admonition.homework, details.homework)
+  > :is(.admonition-title, summary)::before {
+  font-family: "Material Design Icons";
+  content: "\F11D7" !important; /* Unicode for homework emoji */
+  margin-right: .5rem;
+  color: #f47321;
+  display: inline-block;
+}
+
+/* References */
+.md-typeset :is(.admonition.references, details.references)
+  > :is(.admonition-title, summary)::before {
+  font-family: "Material Design Icons";
+  content: "\F059F" !important; /* Unicode for reference emoji */
+  margin-right: .5rem;
+  color: #f47321;
+  display: inline-block;
+}
+
+/* Arrow color (disclosure chevron) */
+.md-typeset details.slides > summary .admonition-title-icon,
+.md-typeset details.slides > summary::after,
+.md-typeset details.recording > summary .admonition-title-icon,
+.md-typeset details.recording > summary::after,
+.md-typeset details.homework > summary .admonition-title-icon,
+.md-typeset details.homework > summary::after,
+.md-typeset details.references > summary .admonition-title-icon,
+.md-typeset details.references > summary::after {
+  color: #f47321;
+  fill: #f47321;
+}
+
+/* Optional: subtle hover to show interactivity */
+.md-typeset details.slides > summary:hover,
+.md-typeset details.recording > summary:hover,
+.md-typeset details.homework > summary:hover,
+.md-typeset details.references > summary:hover {
+  filter: brightness(1.05);
+}
+
