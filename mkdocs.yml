@@ -1,10 +1,13 @@
 site_name: AI For Me
-site_description: Course site for AI For Me
+site_description: Course site for CSC145 AI For Me
 site_author: Collin Connors, Huesyin Kocak
 site_url: https://CollinConnors.github.io/AIForMe/
 repo_url: https://github.com/CollinConnors/AIForMe
 repo_name: CollinConnors/AIForMe
 edit_uri: ""
+copyright: >
+  © 2025 Collin Connors, Huesyin Kocak, University of Miami —
+  Course content licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
 
 theme:
   name: material
@@ -23,19 +26,19 @@ theme:
       toggle: #Used to switch between light and dark modes
         icon: material/weather-sunny
         name: Switch to light mode
-  language: en
+  language: en #Site language: English
   features:
-    - navigation.instant
-    - navigation.tracking
-    - navigation.indexes
-    - navigation.sections
-    - navigation.top
-    - content.code.copy
-    - search.highlight
-    - search.suggest
-    
+    - navigation.instant     # Enables client-side navigation for faster page loads (no full refresh)
+    - navigation.tracking    # Updates the URL as the user scrolls, allowing deep links to headings
+    - navigation.indexes     # Allows index.md files to act as section landing pages (useful for weekly modules)
+    - navigation.sections   # Groups pages into collapsible navigation sections in the sidebar
+    - navigation.top        # Adds a "back to top" button for long pages
+    - content.code.copy     # Adds a copy-to-clipboard button to code blocks
+    - search.highlight      # Highlights search terms within pages after a search
+    - search.suggest        # Provides search suggestions as users type
+
 plugins:
-  - search
+  - search                # Enables full-text, client-side search across the site
 
 extra_css:
   - styles/extra.css #File that has the color shceme
@@ -45,3 +48,4 @@ markdown_extensions:
   - pymdownx.details      # Adds collapsible sections using ??? syntax (used for Slides/Lecture/HW/References dropdowns)
   - pymdownx.superfences  # Allows code blocks and complex content (e.g., HTML iframes) inside admonitions/details without breaking formatting
   - attr_list             # Lets you add HTML attributes (e.g., width/height/style) directly to Markdown elements
+

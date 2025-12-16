@@ -1,13 +1,12 @@
 # CSC195 – AI for Me (Course Website)
 
-This repository contains the source files for the course **CSC195 – AI for Me**, a university-level introduction to Artificial Intelligence for a general audience.  
+This repository contains the source files for the course **AI for Me**, a university-level introduction to Artificial Intelligence for a general audience.  
 The site hosts lecture slides, videos, homework problems, and reference materials for students.
 
 
 ## 📚 Overview
 
-- **Course:** CSC195 – AI for Me
-- **Purpose:** Provide an online hub for all course materials, accessible to students at any time.
+- **Course:** CSC145 – AI for Me
 - **Framework:** [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) – **version 9.6.16**  
 - **Styling:** Custom color scheme and icons via `extra.css` 
 - **Content Organization:** Each lecture has:
@@ -26,6 +25,11 @@ mkdocs server
 To build to site for deployment:
 ```bash
 mkdocs build --clean
+```
+
+To build to site for deployment to GitHub Pages:
+```bash
+mkdocs gh-deploy --force
 ```
 
 To deploy site using just docker
@@ -59,8 +63,8 @@ Each lecture is its own Markdown file under `docs/lectures/`.
 
 1. Create a new markdown file:
    ```bash
-   docs/lectures/lectureN.md
-    ````
+   docs/lectures/[Lecutre Number:02] Lecture Name.md
+  ````
 
 2. Add lecture content using the standard structure:
 
@@ -78,11 +82,9 @@ Each lecture is its own Markdown file under `docs/lectures/`.
        *(Homework markdown here)*
 
    ??? references "References"
-       - Reference link 1
-       - Reference link 2
+       - [Reference](link 1)
+       - [Reference](link 2)
    ```
-3. Update `mkdocs.yml` navigation to include the new lecture.
-
 
 
 ## 📝 Editing Slides
@@ -135,7 +137,15 @@ mkdocs.yml           # MkDocs configuration
 
 ## 📜 License
 
-TBD – Choose an appropriate license for course materials.
+### Course Content
+Unless otherwise noted, all course materials (lecture notes, homework probelems, diagrams, and written content) are licensed under:
+
+Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+
+© 2025 Collin Connors, Collin Connors, Huseyin Kocak, University of Miami
+
+### Source Code and Configuration
+All source code, configuration files, and build scripts are licensed under the MIT License.
 
 ## Version Notes
 python 3.12.7

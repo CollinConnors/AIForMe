@@ -32,140 +32,136 @@
 ??? homework "HW problems"
     # Lecture 1 Homework Problems
 
-    ## 1.1 Turing Test (In-Class Activity)
+    ## 1.1: The Turing Test (In-Class Activity)
 
-    **Instructions:**
-    - Split into groups of 3. Each group will have:
-      - **Interrogator** – Creates a list of 5 questions to ask the others.
-      - **Human** – Answers the questions without using AI.
-      - **Chatbot** – Uses an assigned LLM to answer the questions (possible models: ChatGPT, Gemini, Copilot, Perplexity, MetaAI, DeepSeek, Claude).
-    - The Interrogator will email the other two participants the questions.
-    - Each participant will respond to the questions.
-    - Groups will create **2 slides** showing the questions and both sets of answers.
-    - Email slides to the instructor by **XXXXX**.
-    - In the next class, we will see if we can identify the human and the AI.
+    **Background:**  
+    In 1950, Alan Turing proposed the Imitation Game—now known as the Turing Test—as a way to evaluate whether a machine could exhibit behavior indistinguishable from that of a human. This activity explores whether modern AI systems can pass this test in practice.
 
-    ---
+    **Instructions:**  
+    Split into groups of three and assign the following roles:
 
-    ## 1.2 The Weakness of the Perceptron and the XOR Problem
+    - Interrogator: creates a list of five questions  
+    - Human: answers the questions without using AI tools  
+    - Chatbot: uses an assigned large language model (e.g., ChatGPT, Gemini, Copilot, Perplexity, MetaAI, DeepSeek, Claude)
 
-    **Background:**
-    - XOR (exclusive OR) takes two binary inputs (0 or 1) and outputs `1` if the inputs are different, and `0` if they are the same.
-    - Input–output pairs:
-      - (0, 0) → 0
-      - (0, 1) → 1
-      - (1, 0) → 1
-      - (1, 1) → 0
+    The Interrogator will email the questions to the Human and the Chatbot. Each participant will respond independently. Groups will create two slides showing the questions and both sets of answers.
 
-    **Instructions:**
-    1. Draw the points:
-      - On a piece of paper, make an X–Y coordinate grid.
-      - Plot the four points:
-        - (0,0) and (1,1) are class 0.
-        - (0,1) and (1,0) are class 1.
-    2. Attempt to separate:
-      - Try to draw a single straight line separating class 0 from class 1.
-    3. Answer:
-      - Is it possible? Explain why or why not a single linear decision boundary can solve XOR.
+    Prepare a short report that includes:
+
+    - The five questions used by the Interrogator  
+    - The Human responses  
+    - The AI-generated responses  
+    - The group’s determination of which participant was the human and which was the AI, with justification  
+    - Conclude by discussing if moderen AI can pass the Turing test. Do we have a definitive answer to Turings "Can Machines Think?" question?
 
     ---
 
-    ## 1.3 ELIZA vs Copilot
+    ## 1.2: The Weakness of the Perceptron and the XOR Problem
 
-    **Instructions:**
-    1. **Interact with ELIZA:**
-      - Use an online ELIZA chatbot.
-      - Chat for 5–10 minutes with a mix of factual, emotional, and random questions.
-    2. **Compare with a Modern Chatbot:**
-      - Use Copilot, Gemini, ChatGPT, or similar.
-      - Compare responses in:
-        - Understanding
-        - Relevance
-        - Ability to handle complex/open-ended questions
-    3. **Reflect:**
-      - Write 5–7 sentences comparing ELIZA to the modern chatbot.
-      - Consider:
-        - What ELIZA did well despite its simplicity
-        - Its biggest limitations
-        - How modern AI shows advancements
+    **Background:**  
+    The perceptron is an early model of an artificial neuron that can only represent linearly separable functions. The XOR problem is a classic example that demonstrates a fundamental limitation of single-layer perceptrons.
 
-    ---
+    **Instructions:**  
+    XOR takes two binary inputs and outputs `1` if the inputs are different and `0` if they are the same. The input–output pairs are:
+    - (0,0) → 0  
+    - (0,1) → 1  
+    - (1,0) → 1  
+    - (1,1) → 0  
 
-    ## 1.4 AI Rivals
+    Prepare a short report that addresses the following:
 
-    **Background:**
-    - AI history is full of rivalries that shaped the field. Examples:
-      - Babbage vs. Clement
-      - Turing vs. Lovelace
-      - Rosenblatt vs. Minsky
-      - Kasparov vs. Deep Blue
-      - Hinton vs. Habassis
-
-    **Instructions:**
-    1. Choose one rivalry or get approval for another.
-    2. Research both sides:
-      - Summarize each perspective in 3–4 sentences.
-      - Explain what they believed about AI and why they disagreed.
-    3. Analyze the debate:
-      - Write 5–7 sentences on:
-        - Whose argument you find most convincing
-        - How the outcome influenced AI
-        - Lessons for AI research today
+    - A diagram showing the four XOR input points on a two-dimensional coordinate plane  
+    - An attempt to separate the two classes using a single straight line  
+    - An explanation of whether such a separation is possible  
+    - A brief discussion of what this limitation implies about single-layer perceptrons  
 
     ---
 
-    ## 1.5 The Future of AI
+    ## 1.3: ELIZA vs. Modern Chatbots
 
-    **Background:**
-    - **P(doom)** = "Probability of Doom": an estimate of catastrophic AI risk.
-    - Opinions vary from highly optimistic to very concerned.
+    **Background:**  
+    ELIZA, developed in the 1960s, was one of the first programs to simulate conversation using simple pattern matching. Comparing ELIZA to modern AI systems highlights key advances in natural language processing.
 
-    **Instructions:**
-    1. Reflect on AI’s future:
-      - Write 5–7 sentences about AI’s impact on work, education, art, science, and daily life.
-      - State whether AI will mostly help, harm, or both — and why.
-    2. Think about P(doom):
-      - Define P(doom) in your own words.
-      - Write 3–4 sentences on whether it’s high, low, or in between.
-      - Identify factors that could raise or lower it.
-    3. *(Optional)*: If you were designing AI systems, how would you reduce P(doom)?
+    **Instructions:**  
+    Interact with an online ELIZA chatbot using a variety of factual, emotional, and open-ended prompts. Then interact with a modern chatbot such as Copilot, Gemini, or ChatGPT using similar prompts.
 
-    ---
+    Prepare a short report that addresses the following:
 
-    ## 1.6 Can AI Think?
-
-    **Background:**
-    - In 1950, Alan Turing asked, “Can machines think?” — a debate still alive today.
-
-    **Instructions:**
-    1. Define “thinking”:
-      - In 2–3 sentences, explain what thinking means to you.
-    2. Turing’s Perspective:
-      - Summarize the Imitation Game in 3–4 sentences.
-      - Say whether you agree with Turing’s approach and why.
-    3. Modern AI Reflection:
-      - Compare a chatbot you’ve used to Turing’s vision. Does it “think” by your definition?
-    4. Your Opinion:
-      - Write 5–7 sentences answering: Can machines think? Use examples to support.
+    - Examples of prompts used with both ELIZA and the modern chatbot  
+    - Observations about differences in understanding and relevance  
+    - Strengths and limitations of ELIZA despite its simplicity  
+    - Ways in which modern AI systems demonstrate advancement  
 
     ---
 
-    ## 1.7 How Games Changed AI
+    ## 1.4: AI Rivalries
 
-    **Background:**
-    - Games have been used to test AI: Checkers, Chess, Backgammon, Jeopardy!, Go, etc.
+    **Background:**  
+    Intellectual rivalries and disagreements have played a significant role in shaping the history of artificial intelligence. These debates often influenced research priorities and theoretical approaches.
 
-    **Instructions:**
-    1. Pick a game:
-      - Choose from the lecture list or another approved example.
-    2. Explain the choice:
-      - In 3–4 sentences, say why it was chosen to test AI.
-    3. What did AI learn?:
-      - In 3–4 sentences, describe the strategies or insights discovered.
-      - Did it surprise experts?
-    4. Modern perspective:
-      - Suggest a modern game to train AI.
-      - Explain in 2–3 sentences why it’s a good challenge.
+    **Instructions:**  
+    Choose one historical AI rivalry discussed in lecture.
+
+    Prepare a short report that addresses the following:
+
+    - A summary of each side’s perspective  
+    - The core points of disagreement between the rivals  
+    - Which argument you find more convincing and why  
+    - How the rivalry influenced the development of AI  
+    - Lessons this debate offers for AI research today  
+
+    ---
+
+    ## 1.5: Optimism, Pessimism, and the Future of AI
+
+    **Background:**  
+    Prominent figures in artificial intelligence hold sharply different views about AI’s future. Demis Hassabis has expressed an optimistic perspective, emphasizing AI’s potential to accelerate scientific discovery and benefit humanity. In contrast, Geoffrey Hinton has raised serious concerns about loss of control, misuse, and catastrophic risks associated with advanced AI systems. These perspectives frame an ongoing debate about whether AI will ultimately be beneficial or dangerous.
+
+    **Instructions:**  
+    Prepare a short report that addresses the following:
+
+    - A summary of Demis Hassabis’s optimistic view of the future of AI  
+    - A summary of Geoffrey Hinton’s pessimistic view of the future of AI  
+    - Your assessment of which direction you believe AI development is currently heading and why  
+    - Actions governments could take to encourage beneficial AI outcomes  
+    - Actions model developers and AI companies could take to reduce risk and promote safety  
+    - Actions researchers could take to advance responsible AI development  
+    - Actions users could take to use AI systems responsibly  
+    - Actions or failures by any of these groups that could increase the likelihood of catastrophic outcomes, including P(doom)    
+
+    ---
+
+    ## 1.6: Can AI Think?
+
+    **Background:**  
+    Alan Turing’s question “Can machines think?” remains central to debates in artificial intelligence, philosophy, and cognitive science.
+
+    **Instructions:**  
+    Prepare a short report that addresses the following:
+
+    - Your definition of what it means to “think”  
+    - A summary of Turing’s Imitation Game  
+    - Whether you agree with Turing’s approach and why  
+    - A comparison between a modern chatbot you have used and Turing’s vision  
+    - Your conclusion on whether machines can think, supported by examples  
+
+    ---
+
+    ## 1.7: How Games Changed AI
+
+    **Background:**  
+    Games have historically served as important benchmarks for AI progress because they provide controlled environments with clear goals and measurable outcomes.
+
+    **Instructions:**  
+    Choose a game discussed in lecture or another approved example.
+
+    Prepare a short report that addresses the following:
+
+    - Why the game was chosen as a test of AI capability  
+    - What strategies or insights the AI system developed  
+    - Whether the AI’s performance surprised experts  
+    - A modern game you would propose for AI research and why it presents a meaningful challenge  
+
 
 
 ??? references "References"
