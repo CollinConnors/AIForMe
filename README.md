@@ -1,4 +1,4 @@
-# CSC195 – AI for Me (Course Website)
+# AI for Me (Course Website)
 
 This repository contains the source files for the course **AI for Me**, a university-level introduction to Artificial Intelligence for a general audience.  
 The site hosts lecture slides, videos, homework problems, and reference materials for students.
@@ -64,7 +64,7 @@ Each lecture is its own Markdown file under `docs/lectures/`.
 1. Create a new markdown file:
    ```bash
    docs/lectures/[Lecutre Number:02] Lecture Name.md
-  ````
+  ```
 
 2. Add lecture content using the standard structure:
 
