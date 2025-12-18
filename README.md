@@ -64,7 +64,7 @@ Each lecture is its own Markdown file under `docs/lectures/`.
 1. Create a new markdown file:
    ```bash
    docs/lectures/[Lecutre Number:02] Lecture Name.md
-  ```
+   ```
 
 2. Add lecture content using the standard structure:
 
@@ -148,7 +148,7 @@ Creative Commons Attribution–NonCommercial–ShareAlike 4.0 International (CC 
 All source code, configuration files, and build scripts are licensed under the MIT License.
 
 ## Version Notes
-python 3.12.7
-mkdocs 1.6.1
-mkdocs-materials 9.6.16
-nginx mianline-alpine:3.22
+  - python 3.12.7
+  - mkdocs 1.6.1
+  - mkdocs-materials 9.6.16
+  - nginx mianline-alpine:3.22
