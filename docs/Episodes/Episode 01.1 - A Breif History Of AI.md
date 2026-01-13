@@ -16,13 +16,16 @@
 ??? recording "Lecture recording"
     <div style="width:100%; height:600px;">
       <!-- YouTube example -->
-      <iframe
-        src="https://www.youtube.com/embed/VIDEO_ID"
-        title="Lecture 1 Recording"
-        style="width:100%; height:100%; border:0;"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
+      <p>Coming Soon</p>
+      <!-- 
+        <iframe
+          src="https://www.youtube.com/embed/VIDEO_ID"
+          title="Lecture 1 Recording"
+          style="width:100%; height:100%; border:0;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      -->
     </div>
     <!-- Or Google Drive video:
     <iframe src="https://drive.google.com/file/d/DRIVE_VIDEO_ID/preview"
@@ -30,9 +33,9 @@
     -->
 
 ??? homework "HW problems"
-    # Lecture 1 Homework Problems
+    # Episode 01.1 Homework Problems
 
-    ## 1.1: The Turing Test (In-Class Activity)
+    ## 011.1: The Turing Test
 
     **Background:**  
     In 1950, Alan Turing proposed the Imitation Game—now known as the Turing Test—as a way to evaluate whether a machine could exhibit behavior indistinguishable from that of a human. This activity explores whether modern AI systems can pass this test in practice.
@@ -56,7 +59,7 @@
 
     ---
 
-    ## 1.2: The Weakness of the Perceptron and the XOR Problem
+    ## 011.2: The Weakness of the Perceptron and the XOR Problem
 
     **Background:**  
     The perceptron is an early model of an artificial neuron that can only represent linearly separable functions. The XOR problem is a classic example that demonstrates a fundamental limitation of single-layer perceptrons.
@@ -77,7 +80,7 @@
 
     ---
 
-    ## 1.3: ELIZA vs. Modern Chatbots
+    ## 011.3: ELIZA vs. Modern Chatbots
 
     **Background:**  
     ELIZA, developed in the 1960s, was one of the first programs to simulate conversation using simple pattern matching. Comparing ELIZA to modern AI systems highlights key advances in natural language processing.
@@ -94,7 +97,7 @@
 
     ---
 
-    ## 1.4: AI Rivalries
+    ## 011.4: AI Rivalries
 
     **Background:**  
     Intellectual rivalries and disagreements have played a significant role in shaping the history of artificial intelligence. These debates often influenced research priorities and theoretical approaches.
@@ -112,7 +115,7 @@
 
     ---
 
-    ## 1.5: Optimism, Pessimism, and the Future of AI
+    ## 011.5: Optimism, Pessimism, and the Future of AI
 
     **Background:**  
     Prominent figures in artificial intelligence hold sharply different views about AI’s future. Demis Hassabis has expressed an optimistic perspective, emphasizing AI’s potential to accelerate scientific discovery and benefit humanity. In contrast, Geoffrey Hinton has raised serious concerns about loss of control, misuse, and catastrophic risks associated with advanced AI systems. These perspectives frame an ongoing debate about whether AI will ultimately be beneficial or dangerous.
@@ -131,7 +134,7 @@
 
     ---
 
-    ## 1.6: Can AI Think?
+    ## 011.6: Can AI Think?
 
     **Background:**  
     Alan Turing’s question “Can machines think?” remains central to debates in artificial intelligence, philosophy, and cognitive science.
@@ -147,7 +150,7 @@
 
     ---
 
-    ## 1.7: How Games Changed AI
+    ## 011.7: How Games Changed AI
 
     **Background:**  
     Games have historically served as important benchmarks for AI progress because they provide controlled environments with clear goals and measurable outcomes.
@@ -197,7 +200,7 @@
     - [Mark I Perecptron](https://en.wikipedia.org/wiki/Mark_I_Perceptron)
     - [ALPAC Wikipedia](https://en.wikipedia.org/wiki/ALPAC)
     - [Original ALPAC Report](https://nap.nationalacademies.org/read/9547/chapter/1#iii)
-    - [Some studies in machine learning using the game of checkers](https://ieeexplore.ieee.org/document/5389202) · [link 2](https://people.csail.mit.edu/brooks/idocs/Samuel.pdf))
+    - [Some studies in machine learning using the game of checkers](https://ieeexplore.ieee.org/document/5389202) · [link 2](https://people.csail.mit.edu/brooks/idocs/Samuel.pdf)
     - [Samuel Checkers](http://www.incompleteideas.net/book/ebook/node109.html)
     - [Eliza](https://en.wikipedia.org/wiki/ELIZA)
     - [History of ELIZA](https://sites.google.com/view/elizagen-org/)

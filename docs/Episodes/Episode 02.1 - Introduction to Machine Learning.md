@@ -1,5 +1,5 @@
-# On the Orgin of Pereptrons
-![Lecture 3: On the Orgin of Pereptrons](assets/images/lecture2-header.png)
+# Introduction to Machine Learning
+![Episode 02.1: On the Orgin of Pereptrons](assets/images/lecture2-header.png)
 
 ??? slides "Lecture Slides"
     <div style="width:100%; height:800px;position:relative;padding-top:56.25%;height:0;overflow:hidden;">
