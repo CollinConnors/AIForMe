@@ -1,5 +1,5 @@
-# A Breif History of AI
-![Lecture 1: A Breif History of AI](assets/images/lecture1-header.png)
+# A Brief History of AI
+![Lecture 1: A Brief History of AI](assets/images/lecture1-header.png)
 
 ??? slides "Lecture Slides"
     <div style="width:100%; height:800px;position:relative;padding-top:56.25%;height:0;overflow:hidden;">
@@ -86,14 +86,17 @@
     ELIZA, developed in the 1960s, was one of the first programs to simulate conversation using simple pattern matching. Comparing ELIZA to modern AI systems highlights key advances in natural language processing.
 
     **Instructions:**  
-    Interact with an online ELIZA chatbot using a variety of factual, emotional, and open-ended prompts. Then interact with a modern chatbot such as Copilot, Gemini, or ChatGPT using similar prompts.
+    Review the paper by (Wizenbaum)[https://dl.acm.org/doi/pdf/10.1145/365153.365168]. Interact with an online ELIZA chatbot using a variety of factual, emotional, and open-ended prompts. Then interact with a modern chatbot such as Copilot, Gemini, or ChatGPT using similar prompts.
 
     Prepare a short report that addresses the following:
 
-    - Examples of prompts used with both ELIZA and the modern chatbot  
+    - Try to recreate the converstion that Weizenbaum has with ELIZA on page 1 of the paper with both ELIZA and a modern chatbot
+    - Come up with your own line of 5 questions to ask both ELIZA and a modern chatbot
     - Observations about differences in understanding and relevance  
-    - Strengths and limitations of ELIZA despite its simplicity  
+    - Discuss the strengths and limitations of ELIZA despite its simplicity  
     - Ways in which modern AI systems demonstrate advancement  
+
+    Your report should include screenshots of your converstaions with both ELIZA and the modern chatbot. 
 
     ---
 
@@ -204,7 +207,7 @@
     - [Samuel Checkers](http://www.incompleteideas.net/book/ebook/node109.html)
     - [Eliza](https://en.wikipedia.org/wiki/ELIZA)
     - [History of ELIZA](https://sites.google.com/view/elizagen-org/)
-    - [Original Paper](https://dl.acm.org/doi/pdf/10.1145/365153.365168)
+    - [ELIZA Original Paper](https://dl.acm.org/doi/pdf/10.1145/365153.365168)
     - [Online version of ELIZA](https://anthay.github.io/eliza.html)
     - [Learning Representations By-Back Propagating Errors](https://gwern.net/doc/ai/nn/1986-rumelhart-2.pdf)
     - [Hopfeild Network](https://pmc.ncbi.nlm.nih.gov/articles/PMC346238/)

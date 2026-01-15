@@ -41,40 +41,42 @@
     As AI tools become more capable and accessible, questions of ethics, transparency, and disclosure have become increasingly important. The appropriate use of AI varies by context, and failing to disclose AI assistance can raise concerns related to trust, accountability, and fairness.
 
     **Instructions:**  
-    Reflect on the ethical implications of using AI tools in different contexts, including academic settings, business or professional environments, and personal life. Consider situations where using AI may be inappropriate, misleading, or harmful, even if it is technically allowed. Additionally, evaluate whether—and how—individuals should disclose their use of AI.
+    Reflect on the ethical implications of using AI tools in different contexts, including academic settings, business or professional environments, and personal life. Consider situations where using AI may be inappropriate, misleading, or harmful, even if it is technically allowed. Additionally, evaluate whether individuals should disclose their use of AI.
 
     Prepare a short report that addresses the following:
 
       - Examples of situations where using AI would be unethical in school, even if the tool is approved  
       - Examples of situations where AI use may be unethical or misleading in business or professional contexts  
-      - Examples from everyday life where AI use could create ethical concerns (e.g., relationships, decision-making, or public discourse)  
+      - Examples from everyday life where AI use could create ethical concerns
       - Your position on AI disclosure requirements, including:
 
-        - When disclosure should be mandatory, optional, or unnecessary  
-        - Who should be responsible for disclosure (student, employee, organization)  
-        - What meaningful disclosure should look like (e.g., a statement, citation, or disclaimer)
+        - When disclosure should be mandatory, optional, or unnecessary? 
+        - What professions (if any) should be required to disclose AI use in their work? 
+        - What professions (if any) should not be required to disclose AI use in their work? 
+        - What meaningful disclosure should look like?
 
     Support your arguments with clear reasoning and, where appropriate, references to ethical principles, professional standards, or real-world examples.
 
     ---
 
-    ## 001.2: AI Policies Across the Curriculum
+    ## 001.2: AI Policies Across the University
 
     **Background:**  
     AI usage policies can vary widely across courses, departments, and institutions. Some classes explicitly permit AI tools, others restrict their use, and many have no formal policy at all.
 
     **Instructions:**  
-    Select one course you are currently taking (excluding this class). Review the syllabus, course website, or other official materials to determine whether the course has an explicit AI usage policy. If no policy exists, note that explicitly.
+   Select one course you are currently taking (excluding this class) that has an AI Policy. Review the syllabus, course website, or ask your professor to determine whether the course has an AI usage policy. If none of your other courses have an AI Policy you may use this courses AI policy. 
 
     Prepare a short report that addresses the following:
     
-      - Whether the selected course has an AI policy and, if so, a brief summary of what it allows or restricts  
-      - If no policy exists, how AI usage is currently implied or handled in practice  
+      - Write a brief summary of what it allows or restricts, include a screenshot of the policy in your report
+      - Review the University of Miami PETAL's guidance on (Teaching and Learing with AI)[https://petal.miami.edu/teaching-guides-and-policies/teaching-and-learning-with-ai/]
+      - How does the AI policy of your selected class compare to PETAL's recommendation?
+      - Search the internet for another University's recommendations on AI Policy. How does it compare to the Universitiy of Miami's policy? You should include refrences to the other university's policy in your report.
       - From the perspective of the professor, what concerns or goals should shape an AI policy (e.g., learning outcomes, assessment integrity, workload)  
       - From the perspective of a university administrator, what risks or obligations should influence policy decisions (e.g., academic integrity, legal compliance, equity)  
-      - From your perspective as a student, what an effective and fair AI policy should
-
-    Conclude by proposing a clear, concise AI policy for the selected course.
+      - From your perspective as a student, what is an effective and fair AI policy
+      - Conclude by proposing a clear, concise AI policy for one of your courses that does not have an AI policy. Explain why you belive the policy is apporpriate for the class you selected.
 
     ---
 

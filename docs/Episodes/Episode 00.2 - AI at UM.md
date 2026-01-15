@@ -41,7 +41,7 @@
     The university classifies AI tools based on risk, data governance, and academic integrity considerations. Some tools are widely used and recognized as “known,” but are not approved for general academic use, while others are officially approved and supported by the university.
 
     **Instructions:**  
-    Select one AI tool classified as a “known” tool by the university (for example, ChatGPT) and one university-approved AI tool (such as Microsoft Copilot, Google Gemini, NotebookLM, or Adobe Firefly). Create two to three neutral prompts and submit the same prompts to both tools. Compare the responses in terms of quality, clarity, tone, transparency, and any visible safeguards or warnings.
+    Select one AI tool classified as a “known” tool by the university (for example, ChatGPT) and one university-approved AI tool (such as Microsoft Copilot, Google Gemini, NotebookLM, or Adobe Firefly). Create two to three prompts and submit the same prompts to both tools. Compare the responses in terms of quality, clarity, tone, transparency, and any visible safeguards or warnings.
 
     Prepare a short report that includes:
 
