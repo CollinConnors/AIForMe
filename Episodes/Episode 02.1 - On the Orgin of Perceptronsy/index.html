@@ -12,13 +12,13 @@
         <meta name="author" content="Collin Connors, Huesyin Kocak">
       
       
-        <link rel="canonical" href="https://CollinConnors.github.io/AIForMe/Episodes/Episode%2002.1%20-%20Introduction%20to%20Machine%20Learning/">
+        <link rel="canonical" href="https://CollinConnors.github.io/AIForMe/Episodes/Episode%2002.1%20-%20On%20the%20Orgin%20of%20Perceptronsy/">
       
       
         <link rel="prev" href="../Episode%2001.1%20-%20A%20Breif%20History%20Of%20AI/">
       
       
-        <link rel="next" href="../Episode%2004.1%20-%20AI%20for%20Writing/">
+        <link rel="next" href="../Episode%2002.2%20-%20The%20Multilayer%20Perceptron/">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>Introduction to Machine Learning - AI For Me</title>
+        <title>On the Orgin of Perceptrons - AI For Me</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction-to-machine-learning" class="md-skip">
+        <a href="#on-the-orgin-of-perceptrons" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Introduction to Machine Learning
+              On the Orgin of Perceptrons
             
           </span>
         </div>
@@ -343,6 +343,12 @@
       
         
       
+        
+      
+        
+      
+        
+      
     
     
     
@@ -495,7 +501,7 @@
   <span class="md-ellipsis">
     
   
-    Introduction to Machine Learning
+    On the Orgin of Perceptrons
   
 
     
@@ -505,6 +511,90 @@
 
       </a>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Episode%2002.2%20-%20The%20Multilayer%20Perceptron/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Multilayer Perceptron
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Episode%2002.3%20-%20The%20Expression%20of%20Digits%20in%20Machines/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Expression of Digits in Machines
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Episode%2002.4%20Hello%20AI/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hello AI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
     </li>
   
 
@@ -1112,8 +1202,8 @@
 
 
 
-<h1 id="introduction-to-machine-learning">Introduction to Machine Learning</h1>
-<p><img alt="Episode 02.1: On the Orgin of Pereptrons" src="../assets/images/lecture2-header.png" /></p>
+<h1 id="on-the-orgin-of-perceptrons">On the Orgin of Perceptrons</h1>
+<p><img alt="Episode 02.1: On the Orgin of Pereptrons" src="../assets/images/episode021-header.png" /></p>
 <details class="slides">
 <summary>Lecture Slides</summary>
 <p><div style="width:100%; height:800px;position:relative;padding-top:56.25%;height:0;overflow:hidden;">
@@ -1124,19 +1214,22 @@
     allowfullscreen>
   </iframe>
 </div></p>
-<p><a href="../assets/slides/lecture2.pptx">Download the slides (PPTX)</a></p>
+<p><a href="../assets/slides/episode021.pptx">Download the slides (PPTX)</a></p>
 </details>
 <details class="recording">
 <summary>Lecture recording</summary>
 <p><div style="width:100%; height:600px;">
   <!-- YouTube example -->
-  <iframe
-    src="https://www.youtube.com/embed/VIDEO_ID"
-    title="Lecture 1 Recording"
-    style="width:100%; height:100%; border:0;"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-  </iframe>
+  <p>Coming Soon</p>
+  <!-- 
+    <iframe
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Lecture 1 Recording"
+      style="width:100%; height:100%; border:0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  -->
 </div>
 <!-- Or Google Drive video:
 <iframe src="https://drive.google.com/file/d/DRIVE_VIDEO_ID/preview"
@@ -1145,9 +1238,105 @@
 </details>
 <details class="homework">
 <summary>HW problems</summary>
+<h1 id="episode-021-homework-problems">Episode 02.1 Homework Problems</h1>
+<h2 id="0211-parameters-in-a-single-perceptron">021.1: Parameters in a Single Perceptron</h2>
+<p><strong>Background:</strong>
+The perceptron is one of the earliest models of an artificial neuron and consists of inputs, weights, a bias term, an activation function, and an output. In class, we examined the Logical AND perceptron as a concrete example and discussed the choices that must be made when defining a perceptron model. </p>
+<p><strong>Instructions:</strong>
+Using the Logical AND perceptron example discussed in lecture as your starting point, investigate how the number of parameters in a single perceptron changes as the size of the input increases.</p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Identify all of the parameters that must be chosen in the Logical AND perceptron example (e.g., weights, bias, activation-related choices)</li>
+<li>State how many input values the Logical AND perceptron uses and how many total parameters this requires</li>
+<li>Analyze what changes when the perceptron input size increases from 2 inputs to 3 inputs</li>
+<li>Extend this analysis to input sizes of 5 inputs and 10 inputs</li>
+<li>Describe how the total number of parameters grows as a function of the number of inputs</li>
+<li>Define a formula that expresses the total number of parameters ( y ) as a function of the input size ( x )</li>
+</ul>
+<p>Your explanation should clearly connect each step back to the structure of a single perceptron and use concrete examples where appropriate.</p>
+<hr />
+<h2 id="0212-exploring-activation-functions">021.2: Exploring Activation Functions</h2>
+<p><strong>Background:</strong>
+Activation functions determine how a perceptron or neural network transforms input signals into outputs. They introduce nonlinearity into the model, allowing neural networks to represent more complex relationships. Different activation functions have different mathematical properties that affect learning behavior and model performance.</p>
+<p><strong>Instructions:</strong>
+Review the activation functions listed on the Wikipedia page for Activation Functions:
+<a href="https://en.wikipedia.org/wiki/Activation_function">https://en.wikipedia.org/wiki/Activation_function</a></p>
+<p>Select three different activation functions from the list. Using a graphing calculator such as Desmos (<a href="https://www.desmos.com/calculator">https://www.desmos.com/calculator</a>), plot each activation function. You may copy and paste the function definitions directly into Desmos.</p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Identify the three activation functions you selected</li>
+<li>Include a plot of each activation function over a reasonable input range (for example, (x = -5) to (x = 5))</li>
+<li>Describe what makes each activation function mathematically and visually different from the others</li>
+<li>Discuss how each activation function behaves for large positive and large negative input values</li>
+<li>Explain why one activation function might be chosen over another in a neural network</li>
+<li>Reflect on how the choice of activation function can influence learning and model behavior</li>
+</ul>
+<hr />
+<h2 id="0213-logical-or-with-a-single-perceptron">021.3: Logical OR with a Single Perceptron</h2>
+<p><strong>Background:</strong>
+In lecture, we used a single perceptron to model the Logical AND function by defining inputs, initializing weights and a bias, computing the weighted sum, applying an activation function, and then using an error-correction update when the perceptron produced an incorrect output. In this problem, you will repeat that process for the Logical OR function and perform one explicit learning update. </p>
+<p><strong>Instructions:</strong>
+Logical OR (inclusive OR) outputs <code>1</code> when at least one input is <code>1</code>, and outputs <code>0</code> only when both inputs are <code>0</code>. A truth-table hint is available in the semantics section of the Logical Disjunction article. <a href="https://en.wikipedia.org/wiki/Logical_disjunction">Wikipedia</a></p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Draw the truth table for Logical OR with inputs ((0,0), (0,1), (1,0), (1,1)) and the corresponding outputs</li>
+<li>Draw a perceptron diagram like the one used in class (two inputs, two weights, a bias term, and an activation function) </li>
+<li>Initialize the perceptron with (w_1 = 0), (w_2 = 0), and (b = 0)</li>
+<li>
+<p>For each input pair ((0,0)), ((0,1)), ((1,0)), and ((1,1)), show the full forward-pass calculations:</p>
+</li>
+<li>
+<p>the weighted sum (including the bias)</p>
+</li>
+<li>the activation output (your predicted output) Use the &gt;0 activation function from the lecture.</li>
+<li>Identify one input case where the perceptron’s predicted output is incorrect relative to your truth table</li>
+<li>
+<p>Using the same error-correction approach shown in class, perform one update step using a learning rate of (0.1):</p>
+</li>
+<li>
+<p>compute the error term (target − prediction) for your chosen incorrect case</p>
+</li>
+<li>show the updated values of (w_1), (w_2), and (b) after the update</li>
+<li>Briefly explain (2–4 sentences) why the update moved the perceptron in the direction of the correct Logical OR behavior</li>
+</ul>
+<h2 id="0214-logical-xor-with-a-single-perceptron">021.4: Logical XOR with a Single Perceptron</h2>
+<p><strong>Background:</strong>
+In lecture, we trained a single perceptron using an error-correction update rule on simple Boolean functions. Some Boolean functions (like AND and OR) are linearly separable and can be represented by a single perceptron. Others, like XOR, expose a fundamental limitation of single-layer perceptrons and motivated later developments in neural networks. </p>
+<p><strong>Instructions:</strong>
+Logical XOR outputs <code>1</code> when the two inputs are different and outputs <code>0</code> when the two inputs are the same. (A truth-table reference is available on Wikipedia.)</p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Draw the truth table for Logical XOR with inputs ((0,0), (0,1), (1,0), (1,1)) and the corresponding outputs (<a href="https://en.wikipedia.org/wiki/Exclusive_or">XOR</a>)</li>
+<li>Draw a perceptron diagram like the one used in class (two inputs, two weights, a bias term, and an activation function) </li>
+<li>Initialize the perceptron with (w_1 = 0), (w_2 = 0), and (b = 0)</li>
+<li>
+<p>For each input pair ((0,0)), ((0,1)), ((1,0)), and ((1,1)), show the full forward-pass calculations:</p>
+</li>
+<li>
+<p>the weighted sum (including the bias)</p>
+</li>
+<li>the activation output (your predicted output)</li>
+<li>Identify one input case where the perceptron’s predicted output is incorrect relative to your truth table</li>
+<li>
+<p>Using the same error-correction approach shown in class, perform one update step using a learning rate of (0.1):</p>
+</li>
+<li>
+<p>compute the error term (target − prediction) for your chosen incorrect case</p>
+</li>
+<li>show the updated values of (w_1), (w_2), and (b) after the update</li>
+<li>After performing your update, briefly discuss whether you believe a single perceptron can learn XOR perfectly. Support your claim by referencing what you observed and what XOR requires geometrically (i.e., whether the classes can be separated by a single straight line). </li>
+</ul>
 </details>
 <details class="references">
 <summary>References</summary>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/On_the_Origin_of_Species">On the Origin of Species</a></li>
+<li><a href="https://homepages.math.uic.edu/~lreyzin/papers/rosenblatt58.pdf">The Perceptron</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Logical_conjunction">Logical Conjunction</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Activation_function">Activation Functions</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Perceptron">Perceptrons (book)</a></li>
+<li><a href="http://neuralnetworksanddeeplearning.com/chap1.html#perceptrons">Michael Nielsen Perceptron Overview</a></li>
+</ul>
 </details>
 
 
