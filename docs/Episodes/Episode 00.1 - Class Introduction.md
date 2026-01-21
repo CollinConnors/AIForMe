@@ -65,7 +65,7 @@
     AI usage policies can vary widely across courses, departments, and institutions. Some classes explicitly permit AI tools, others restrict their use, and many have no formal policy at all.
 
     **Instructions:**  
-   Select one course you are currently taking (excluding this class) that has an AI Policy. Review the syllabus, course website, or ask your professor to determine whether the course has an AI usage policy. If none of your other courses have an AI Policy you may use this courses AI policy. 
+    Select one course you are currently taking (excluding this class) that has an AI Policy. Review the syllabus, course website, or ask your professor to determine whether the course has an AI usage policy. If none of your other courses have an AI Policy you may use this courses AI policy. 
 
     Prepare a short report that addresses the following:
     
