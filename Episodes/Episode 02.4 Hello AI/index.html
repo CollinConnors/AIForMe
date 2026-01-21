@@ -1239,6 +1239,169 @@
 <details class="homework">
 <summary>HW problems</summary>
 <h1 id="episode-024-homework-problems">Episode 02.4 Homework Problems</h1>
+<h2 id="0241-network-architecture-and-learning-behavior-in-digit-recognition">024.1: Network Architecture and Learning Behavior in Digit Recognition</h2>
+<p><strong>Background:</strong>
+Neural networks learn by adjusting internal parameters across layers of connected neurons. The number of hidden layers and the number of neurons in each layer affect both what the model can learn and how quickly it learns. In this lab, you will modify the architecture of a handwritten digit recognition model and observe how learning behavior changes.</p>
+<p>The model uses randomly initialized weights, so results may vary slightly between runs even when using the same architecture.</p>
+<p><strong>Instructions:</strong>
+Open and run the provided notebook:</p>
+<p><a href="https://colab.research.google.com/drive/1mcGhSiEXrl_oUuF85GqW1pjmwXVsk08G?usp=sharing">DigitRecognitionLab.ipynb</a></p>
+<p>Using the existing code, modify <strong>only</strong>:</p>
+<ul>
+<li>The number of hidden layers, and</li>
+<li>The number of neurons in each hidden layer</li>
+</ul>
+<p>Do not change the dataset, training procedure, or any other parameters (See the notes in the Notebook on how to modify the code).</p>
+<p>Prepare a short report that addresses the following.</p>
+<hr />
+<h3 id="part-a-architecture-exploration">Part A: Architecture Exploration</h3>
+<p>For at least <strong>three different architectures</strong>, record:</p>
+<table>
+<thead>
+<tr>
+<th>Hidden Layers</th>
+<th>Neurons per Layer</th>
+<th>Overall test accuracy</th>
+<th>Training Epochs</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Include screenshots showing:</p>
+<ul>
+<li>The network architecture</li>
+<li>The final accuracy</li>
+</ul>
+<hr />
+<h3 id="reflection-questions">Reflection Questions</h3>
+<p>In your report, answer the following:</p>
+<ul>
+<li>Did increasing the number of layers and neurons reduce the number of epochs required to learn?</li>
+<li>Did adding complexity always improve performance?</li>
+<li>Why might a larger network learn faster—or slower—than a smaller one?</li>
+</ul>
+<hr />
+<h2 id="0242-testing-the-model-with-your-own-handwritten-digits">024.2: Testing the Model With Your Own Handwritten Digits</h2>
+<p><strong>Background:</strong>
+Handwritten digit recognition models are often trained on large datasets collected under controlled conditions. When tested on new handwriting styles, model performance may vary depending on stroke thickness, shape, spacing, and overall consistency.</p>
+<p>In this lab, you will test the trained model using your own handwritten digits and evaluate how well it generalizes.</p>
+<p><strong>Instructions:</strong>
+Using the instructions provided in the notebook:</p>
+<ol>
+<li>Write the digits 0 through 9 on a blank sheet of paper</li>
+<li>Take clear photos or scans of each digit</li>
+<li>Crop each image so that only one digit is visible</li>
+<li>Upload the images to the notebook and run the prediction code (Make sure to follow the instructions in the Notebook on how to name the files correctly)</li>
+</ol>
+<p>Prepare a short report that addresses the following.</p>
+<hr />
+<h3 id="prediction-results">Prediction Results</h3>
+<p>Record whether the model correctly predicted each digit.</p>
+<table>
+<thead>
+<tr>
+<th>Digit</th>
+<th>Model Prediction</th>
+<th>Correct? (Yes/No)</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>In your report, address the following questions:</p>
+<ul>
+<li>Which digits were predicted correctly? Which were incorrect?</li>
+<li>How does your handwriting differ from the digits in the training dataset?</li>
+</ul>
+<p>Include screenshots showing:</p>
+<ul>
+<li>Your uploaded digit images</li>
+<li>The model’s predictions</li>
+</ul>
 </details>
 <details class="references">
 <summary>References</summary>

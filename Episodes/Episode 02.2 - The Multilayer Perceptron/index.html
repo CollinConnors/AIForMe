@@ -1524,211 +1524,107 @@ Using the <strong>same network and values</strong> from Problem 022.1, perform <
 <li>Briefly explain why errors must be propagated backward rather than updated directly</li>
 </ul>
 <hr />
-<h2 id="0223-learning-speed-in-tensorflow-playground">022.3: Learning Speed in TensorFlow Playground</h2>
-<p><strong>Background:</strong>
-TensorFlow Playground allows us to experiment with neural network architectures and observe how learning behavior changes as we modify the number of hidden layers and neurons. These architectural choices influence convergence speed, stability, and the ability to model complex datasets.</p>
-<p><strong>Instructions:</strong>
-Go to TensorFlow Playground:
-<a href="https://playground.tensorflow.org">https://playground.tensorflow.org</a></p>
-<p>Using <strong>all four datasets</strong>, explore how learning speed changes when adjusting network architecture.</p>
-<p>Prepare a short report that addresses the following.</p>
-<h3 id="experiment-configuration-log">Experiment Configuration Log</h3>
-<table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>Hidden Layers</th>
-<th>Neurons per Layer</th>
-<th>Held Constant</th>
-<th>Changed Variable</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="learning-behavior-observations">Learning Behavior Observations</h3>
-<table>
-<thead>
-<tr>
-<th>Dataset</th>
-<th>Convergence Speed</th>
-<th>Stability</th>
-<th>Decision Boundary Quality</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<ul>
-<li>Compare increasing <strong>depth</strong> versus increasing <strong>width</strong></li>
-<li>Identify which architectures struggled and explain why</li>
-<li>Include screenshots where appropriate</li>
-</ul>
-<hr />
-<h2 id="0224-hyperparameters-and-learning-behavior-in-tensorflow-playground">022.4: Hyperparameters and Learning Behavior in TensorFlow Playground</h2>
-<p><strong>Background:</strong>
-Neural network performance depends not only on architecture, but also on hyperparameters such as learning rate, activation function, training data ratio, noise, and batch size. These choices can significantly impact convergence, stability, and generalization.</p>
-<p><strong>Instructions:</strong>
-Using TensorFlow Playground, start with a baseline configuration and change <strong>one hyperparameter at a time</strong>.</p>
-<p>Prepare a short report that addresses the following.</p>
-<h3 id="baseline-configuration">Baseline Configuration</h3>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Dataset</td>
-<td></td>
-</tr>
-<tr>
-<td>Hidden layers</td>
-<td></td>
-</tr>
-<tr>
-<td>Neurons per layer</td>
-<td></td>
-</tr>
-<tr>
-<td>Activation function</td>
-<td></td>
-</tr>
-<tr>
-<td>Learning rate</td>
-<td></td>
-</tr>
-<tr>
-<td>Training data ratio</td>
-<td></td>
-</tr>
-<tr>
-<td>Noise</td>
-<td></td>
-</tr>
-<tr>
-<td>Batch size</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="hyperparameter-experiments">Hyperparameter Experiments</h3>
-<table>
-<thead>
-<tr>
-<th>Parameter Changed</th>
-<th>Old Value</th>
-<th>New Value</th>
-<th>Effect on Learning Speed</th>
-<th>Effect on Accuracy</th>
-<th>Notes</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<hr />
-<h3 id="summary-reflection">Summary Reflection</h3>
-<ul>
-<li>Which parameter had the largest impact?     </li>
-<li>Which settings caused instability?         </li>
-<li>Which configuration performed best overall? </li>
-</ul>
+<p>Below is a <strong>rewritten and fully integrated version of the assignment</strong> that precisely reflects your intent, preserves your established homework style, and remains appropriate for <strong>freshman, non-CS majors</strong>. The language emphasizes <strong>experimental observation, variability, and intuition</strong>, not optimization or theory.</p>
 </details>
+<hr />
+<pre><code>## 022.3: Model Complexity, Learning Speed, and Overparameterization
+
+**Background:**
+Neural network performance depends strongly on architectural choices such as the number of hidden layers and the number of neurons per layer. While increasing model complexity can make it easier to fit a dataset, it may also change how quickly the model learns. Because neural networks start with random initial weights, repeated training runs may produce different results even with the same architecture. TensorFlow Playground allows us to observe these effects visually.
+
+**Instructions:**
+Go to TensorFlow Playground:
+[https://playground.tensorflow.org](https://playground.tensorflow.org)
+
+For each of the four datasets (Doughnut, XOR, Linear, and Spiral), you will explore how model size affects both learning capability and learning speed.
+
+Prepare a short report that addresses the following.
+
+For each dataset, try your best to determine:
+
+1. The minimum number of hidden layers required to reach a final loss below 0.020
+2. The minimum total number of neurons required to reach a final loss below 0.020
+
+Record the configuration that achieved this threshold.
+
+| Dataset  | Min Hidden Layers | Min Total Neurons     | Final Loss | Notes |
+| -------- | ----------------- | --------------------- | ---------- | ----- |
+| Doughnut |                   |                       |            |       |
+| XOR      |                   |                       |            |       |
+| Linear   |                   |                       |            |       |
+| Spiral   |                   |                       |            |       |
+
+Include **screenshots** showing the loss and decision boundary for each dataset.
+
+### Part B: Increasing Model Complexity
+
+For each dataset, increase both:
+
+* The number of hidden layers, and
+* The number of neurons per layer
+
+Run the model again and observe how learning behavior changes.
+
+| Dataset  | Layers Added | Neurons Added | Epochs to Reach Loss &lt; 0.010 | Observations |
+| -------- | ------------ | ------------- | ---------------------------- | ------------ |
+| Doughnut |              |               |                              |              |
+| XOR      |              |               |                              |              |
+| Linear   |              |               |                              |              |
+| Spiral   |              |               |                              |              |
+
+
+### Part C: Learning Speed and Reflection
+
+In your report, address the following questions:
+
+* When you added more layers and neurons, did the model reach low loss in more epochs or fewer epochs?
+* Did this behavior differ across datasets? Which datasets benefited the most from added complexity?
+* Explain how random initialization influenced your results
+
+---
+
+## 022.4: Hyperparameters and Learning Behavior in TensorFlow Playground
+
+**Background:**
+Neural network performance depends not only on architecture, but also on hyperparameters such as learning rate, activation function, training data ratio, noise, and batch size. These choices can significantly impact convergence, stability, and generalization.
+
+**Instructions:**
+Using TensorFlow Playground, start with a baseline configuration and change **one hyperparameter at a time**.
+
+Prepare a short report that addresses the following.
+
+### Baseline Configuration
+
+| Parameter           | Value |
+| ------------------- | ----- |
+| Dataset             |       |
+| Hidden layers       |       |
+| Neurons per layer   |       |
+| Activation function |       |
+| Learning rate       |       |
+| Training data ratio |       |
+| Noise               |       |
+| Batch size          |       |
+
+---
+
+### Hyperparameter Experiments
+
+| Parameter Changed | Old Value | New Value | Effect on Learning Speed | Effect on Accuracy | Notes |
+| ----------------- | --------- | --------- | ------------------------ | ------------------ | ----- |
+|                   |           |           |                          |                    |       |
+|                   |           |           |                          |                    |       |
+|                   |           |           |                          |                    |       |
+|                   |           |           |                          |                    |       |
+
+---
+
+### Summary Reflection
+
+- Which parameter had the largest impact?     
+- Which settings caused instability?         
+- Which configuration performed best overall?
+</code></pre>
 <details class="references">
 <summary>References</summary>
 <ul>
