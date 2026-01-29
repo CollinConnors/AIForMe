@@ -155,44 +155,63 @@
 
     ---
 
-    ## 022.3: Learning Speed in TensorFlow Playground
+    Below is a **rewritten and fully integrated version of the assignment** that precisely reflects your intent, preserves your established homework style, and remains appropriate for **freshman, non-CS majors**. The language emphasizes **experimental observation, variability, and intuition**, not optimization or theory.
+
+---
+
+    ## 022.3: Model Complexity, Learning Speed, and Overparameterization
 
     **Background:**
-    TensorFlow Playground allows us to experiment with neural network architectures and observe how learning behavior changes as we modify the number of hidden layers and neurons. These architectural choices influence convergence speed, stability, and the ability to model complex datasets.
+    Neural network performance depends strongly on architectural choices such as the number of hidden layers and the number of neurons per layer. While increasing model complexity can make it easier to fit a dataset, it may also change how quickly the model learns. Because neural networks start with random initial weights, repeated training runs may produce different results even with the same architecture. TensorFlow Playground allows us to observe these effects visually.
 
     **Instructions:**
     Go to TensorFlow Playground:
     [https://playground.tensorflow.org](https://playground.tensorflow.org)
 
-    Using **all four datasets**, explore how learning speed changes when adjusting network architecture.
+    For each of the four datasets (Doughnut, XOR, Linear, and Spiral), you will explore how model size affects both learning capability and learning speed.
 
     Prepare a short report that addresses the following.
 
-    ### Experiment Configuration Log
+    For each dataset, try your best to determine:
 
-    | Dataset | Hidden Layers | Neurons per Layer | Held Constant | Changed Variable |
-    | ------- | ------------- | ----------------- | ------------- | ---------------- |
-    |         |               |                   |               |                  |
-    |         |               |                   |               |                  |
-    |         |               |                   |               |                  |
-    |         |               |                   |               |                  |
+    1. The minimum number of hidden layers required to reach a final loss below 0.020
+    2. The minimum total number of neurons required to reach a final loss below 0.020
 
-    ---
+    Record the configuration that achieved this threshold.
 
-    ### Learning Behavior Observations
+    | Dataset  | Min Hidden Layers | Min Total Neurons     | Final Loss | Notes |
+    | -------- | ----------------- | --------------------- | ---------- | ----- |
+    | Doughnut |                   |                       |            |       |
+    | XOR      |                   |                       |            |       |
+    | Linear   |                   |                       |            |       |
+    | Spiral   |                   |                       |            |       |
 
-    | Dataset | Convergence Speed | Stability | Decision Boundary Quality | Notes |
-    | ------- | ----------------- | --------- | ------------------------- | ----- |
-    |         |                   |           |                           |       |
-    |         |                   |           |                           |       |
-    |         |                   |           |                           |       |
-    |         |                   |           |                           |       |
+    Include **screenshots** showing the loss and decision boundary for each dataset.
 
-    ---
+    ### Part B: Increasing Model Complexity
 
-    * Compare increasing **depth** versus increasing **width**
-    * Identify which architectures struggled and explain why
-    * Include screenshots where appropriate
+    For each dataset, increase both:
+
+    * The number of hidden layers, and
+    * The number of neurons per layer
+
+    Run the model again and observe how learning behavior changes.
+
+    | Dataset  | Layers Added | Neurons Added | Epochs to Reach Loss < 0.010 | Observations |
+    | -------- | ------------ | ------------- | ---------------------------- | ------------ |
+    | Doughnut |              |               |                              |              |
+    | XOR      |              |               |                              |              |
+    | Linear   |              |               |                              |              |
+    | Spiral   |              |               |                              |              |
+
+
+    ### Part C: Learning Speed and Reflection
+
+    In your report, address the following questions:
+
+    * When you added more layers and neurons, did the model reach low loss in more epochs or fewer epochs?
+    * Did this behavior differ across datasets? Which datasets benefited the most from added complexity?
+    * Explain how random initialization influenced your results
 
     ---
 
