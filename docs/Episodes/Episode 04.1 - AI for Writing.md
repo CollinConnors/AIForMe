@@ -64,7 +64,7 @@
 
     ---
 
-    ### 03.1.3: Comparing Three Ways of Writing
+    ### 031.3: Comparing Three Ways of Writing
 
     **Background:**
     The presentation raises questions about authorship, learning, and responsibility when AI is involved in writing. Different levels of AI involvement may lead to different outcomes in quality, effort, and authenticity.
@@ -95,7 +95,7 @@
 
     ---
 
-    ### 03.1.4: Why Do Professors Still Ask Students to Write?
+    ### 031.4: Why Do Professors Still Ask Students to Write?
 
     **Background:**
     One of the central questions in the presentation is why writing assignments still matter in an era when AI can generate text instantly.
@@ -109,7 +109,7 @@
 
     ---
 
-    ### 03.1.5: Responsible Use and Personal Boundaries
+    ### 031.5: Responsible Use and Personal Boundaries
 
     **Background:**
     The presentation emphasizes responsible AI use, self-awareness, and aligning behavior with values rather than rules alone.
