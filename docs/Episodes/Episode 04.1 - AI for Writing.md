@@ -27,8 +27,6 @@
 ??? homework "HW problems"
     # Episode 03.1 Homework Problems
 
-    ## 03.1 — Homework: Writing with AI
-
     ### 031.1: How Does AI “Write”?
 
     **Background:**

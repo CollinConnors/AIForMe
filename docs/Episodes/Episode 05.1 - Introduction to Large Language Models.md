@@ -39,18 +39,17 @@
     ## 041.1: The Fill-in-the-Blank Game and Its Consequences
 
     **Background:**
-    Large Language Models are trained to predict the next token in a sequence of text. In class, this idea was introduced through a “fill in the blank” game, where you were asked to guess the next word in a story based on what came before. While this seems simple, the choices you made—and *why* you made them—reveal important insights about how language models generate text and the limitations of that approach.
+    Large Language Models are trained to predict the next token in a sequence of text. In class, this idea was introduced through a “fill in the blank” game, where you were asked to guess the next word in a story based on what came before. While this seems simple, the choices you made, and why you made them, reveal important insights about how language models generate text and the limitations of that approach.
 
     **Instructions:**
-    Participate in the fill-in-the-blank exercise discussed in class (for example, completing the sentence “Once upon a time…”).
-
+    
     Prepare a short report that addresses the following:
 
-    * Describe your **thought process** when deciding what the next word should be
+    * Describe your thought process when deciding what the next word should be
     * Identify the factors that influenced your choice (such as grammar, common phrases, narrative expectations, or prior experience)
-    * Reflect on how choosing the *most likely* next word shapes the direction of the story
+    * Reflect on how choosing the most likely next word shapes the direction of the story
     * Explain how this same process might influence the outputs of a large language model
-    * Discuss one consequence—positive or negative—of generating text primarily by predicting what comes next
+    * Discuss one consequence positive or negative of generating text primarily by predicting what comes next
 
     ---
 
