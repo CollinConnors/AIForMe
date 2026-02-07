@@ -1239,6 +1239,181 @@
 <details class="homework">
 <summary>HW problems</summary>
 <h1 id="episode-051-homework-problems">Episode 05.1 Homework Problems</h1>
+<h2 id="0511-prompt-techniques-on-mmlu-pro-and-creative-writing">051.1: Prompt Techniques on MMLU-Pro and Creative Writing</h2>
+<p><strong>Background:</strong>
+Prompt engineering techniques can improve performance on tasks that require reasoning, structure, tone control, and constraint-following. In this homework, you will apply multiple techniques and evaluate whether they are actually helpful. </p>
+<p><strong>Instructions:</strong>
+Using the prompt engineering techniques explored in class (choose from <strong>Few Shot</strong>, <strong>Role Based</strong>, <strong>Chain of Thought (CoT)</strong>, <strong>Emotion Prompting</strong>, <strong>Code Execution</strong>, <strong>Rephrase and Respond (RaR)</strong>, or <strong>Take a Step Back</strong>), select two techniques and apply them in two settings:</p>
+<ol>
+<li>
+<p><strong>MMLU-Pro</strong></p>
+</li>
+<li>
+<p>Select one question from the MMLU-Pro dataset.</p>
+</li>
+<li>Read the original source paper for each technique you chose so you understand how the authors used it</li>
+<li>Apply the technique to the problem from the MMLU-Pro dataset</li>
+<li>
+<p>Bounus: Find a prompt in the MMLU-Pro data set that the model gets wrong initally but when you apply one of the techniques the model gets it correct.</p>
+</li>
+<li>
+<p><strong>Creative writing constraint task</strong></p>
+</li>
+<li>
+<p>Use the same two techniques on the prompt:
+  “In 200 words or less write a story about a dog who goes to the store.”</p>
+</li>
+</ol>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>The two techniques you selected and a shrot summary of what they are</li>
+<li>The MMLU-Pro question you used (copy/paste it into your report)</li>
+<li>Your baseline prompt (no technique) and outputs</li>
+<li>Your technique prompts and outputs (include screenshots of your prompts)</li>
+<li>Was each technique helpful?</li>
+<li>When / what types of tasks would you consider using the technique for?</li>
+</ul>
+<hr />
+<h2 id="0512-more-prompt-engineering-methods">051.2: More Prompt Engineering Methods</h2>
+<p><strong>Background:</strong>
+Prompt engineering is a rapidly expanding field, with many techniques beyond what can be covered in a single lecture. This assignment builds your ability to independently research and apply techniques from the literature. </p>
+<p><strong>Instructions:</strong>
+Pick one prompt technique from the paper <em>A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications</em> that we <strong>did not</strong> discuss in class.</p>
+<p>You will need to review the original source paper for the technique (see Figure 2 in the survey for pointers to original sources).</p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>The technique you selected and a clear explanation of how it works</li>
+<li>The original source paper you used (citation/reference) and what you learned from it</li>
+<li>Two example scenarios where the technique would be helpful</li>
+<li>For each scenario: the exact prompt you used, plus screenshots of your LLM conversations</li>
+<li>A short evaluation: Was the technique helpful? Why or why not?</li>
+</ul>
+<hr />
+<h2 id="0513-prompt-length-experiment-ethics-of-ai-in-art">051.3: Prompt Length Experiment — Ethics of AI in Art</h2>
+<p><strong>Background:</strong>
+Small changes in prompt length and specificity can produce large changes in output quality, voice, and factual grounding. This lab explores how constraints and context shape model behavior. </p>
+<p><strong>Instructions:</strong>
+In three separate new chat windows, ask an LLM to write an essay on the ethics of AI in art using three prompt lengths:</p>
+<ul>
+<li>Condition A: 5 words or less</li>
+<li>Condition B: 25–50 words</li>
+<li>Condition C: 100–200 words</li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Your three prompts (A/B/C) and how you changed them each time (Include screenshots of your prompts)</li>
+<li>The three essays (include screenshots or pasted text or a link to your chat, as required)</li>
+<li>Your observations about changes in: structure, nuance, evidence, and bias/assumptions</li>
+<li>If you were an English professor, what grade would you give each essay and why?</li>
+<li>Which essay best represents your views on the ethics of AI in art, and why?</li>
+</ul>
+<hr />
+<h2 id="0514-nondeterminism-bias-and-hallucination-fill-in-the-blank-lab">051.4: Nondeterminism, Bias, and Hallucination — Fill-in-the-Blank Lab</h2>
+<p><strong>Background:</strong>
+LLMs may produce different completions to the same prompt (nondeterminism), fill missing information using assumptions (bias), or invent details when context is missing (hallucination). </p>
+<p><strong>Instructions:</strong>
+Run the following prompts and record outputs:</p>
+<ol>
+<li>“He lives in <strong><em>_</em></strong>_”</li>
+<li>“The king lives in <strong><em>_</em></strong>_”</li>
+</ol>
+<p>For each prompt, query <strong>two different LLMs</strong> (or the same LLM in two separate new chats), and collect at least <strong>4 total completions</strong> per prompt.</p>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Your collected completions for each prompt</li>
+<li>Examples of <strong>nondeterminism</strong> (different completions)</li>
+<li>Examples of <strong>bias/assumptions</strong> (what the model assumed and why that might reflect human expectations)</li>
+<li>Examples of <strong>hallucination</strong> (fabricated specificity)</li>
+<li>A short conclusion: how adding context (“king…”) changed results</li>
+</ul>
+<p>Include screenshots of your prompts and outputs.</p>
+<hr />
+<h2 id="0515-grounding-to-reduce-hallucinations-manual-rag-comparison">051.5: Grounding to Reduce Hallucinations — “Manual RAG” Comparison</h2>
+<p><strong>Background:</strong>
+One way to reduce hallucination is to provide relevant source text inside the context window (a simplified version of the idea behind Retrieval Augmented Generation, RAG). </p>
+<p><strong>Instructions:</strong>
+Choose a short source of truth (one):</p>
+<ul>
+<li>A 300–800 word excerpt from a credible article you paste into the chat, or</li>
+<li>A short course reading excerpt you paste into the chat</li>
+</ul>
+<p>Write <strong>8 factual questions</strong> that can be answered using only that excerpt.</p>
+<p>Run two conditions in separate new chats:</p>
+<ul>
+<li><strong>Condition A (Ungrounded):</strong> Ask the 8 questions without providing the excerpt</li>
+<li><strong>Condition B (Grounded):</strong> Paste the excerpt first and instruct:
+  “Answer using only the provided text. If the answer is not in the text, write: ‘Not in the text.’ Quote the sentence(s) you used.”</li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>The excerpt you used</li>
+<li>Your 8 questions</li>
+<li>A table comparing A vs B: correct / incorrect / “not in the text”</li>
+<li>At least 2 examples where grounding changed the outcome (with screenshots)</li>
+</ul>
+<hr />
+<h2 id="0516-understanding-user-intent-rar-vs-take-a-step-back">051.6: Understanding User Intent — RaR vs Take-a-Step-Back</h2>
+<p><strong>Background:</strong>
+Some prompts are ambiguous and cause the model to guess the user’s intent. Techniques like <strong>Rephrase and Respond (RaR)</strong> and <strong>Take a Step Back</strong> can improve intent understanding and reduce unhelpful assumptions. </p>
+<p><strong>Instructions:</strong>
+Create <strong>5 ambiguous questions</strong> (e.g., “Should I do it?”, “Is it safe?”, “What’s the best option?”).</p>
+<p>For <strong>two</strong> of your ambiguous questions, test all three conditions in separate new chats:</p>
+<ul>
+<li><strong>A. Baseline:</strong> Ask the question as-is</li>
+<li><strong>B. RaR:</strong> “First rephrase my question to be more precise, then answer.”</li>
+<li><strong>C. Take-a-Step-Back:</strong> “Before answering, list assumptions you might be making and what you’d need to know. Then answer and clearly state your assumptions.”</li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Your ambiguous questions</li>
+<li>Screenshots of A/B/C for at least <strong>two</strong> questions</li>
+<li>Which method reduced assumptions the most?</li>
+<li>Which produced the most useful answer and why?</li>
+</ul>
+<hr />
+<h2 id="0517-managing-tone-emotion-prompting-vs-neutral-prompting">051.7: Managing Tone — Emotion Prompting vs Neutral Prompting</h2>
+<p><strong>Background:</strong>
+Prompting can intentionally shape tone and affect the style and persuasiveness of output. Emotion prompting is one technique for steering tone. </p>
+<p><strong>Instructions:</strong>
+Pick one topic that can be written in multiple tones (examples: “AI in hiring,” “AI in education,” or “AI in healthcare”).</p>
+<p>In separate new chats, generate three versions of the same response:</p>
+<ul>
+<li><strong>A. Neutral / objective tone</strong></li>
+<li><strong>B. Emotion-prompted tone</strong> (e.g., urgent, inspiring, cautious, empathetic—choose one)</li>
+<li><strong>C. Professional memo tone</strong> (e.g., concise and action-oriented)</li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>The three prompts you used and why you wrote them that way</li>
+<li>The three outputs</li>
+<li>A comparison of tone, clarity, and bias/assumptions</li>
+<li>Which tone is most appropriate for (1) students, (2) executives, and (3) the general public?</li>
+</ul>
+<p>Include screenshots of prompts and outputs.</p>
+<hr />
+<h2 id="0518-prompt-optimization-iteration-and-scoring-opro-inspired">051.8: Prompt Optimization — Iteration and Scoring (OPRO-Inspired)</h2>
+<p><strong>Background:</strong>
+Prompt optimization can be treated like an iterative improvement problem: you propose a prompt, evaluate the result, and revise. This aligns with the idea of optimization-by-prompting (OPRO) and structured iteration workflows like “The Intern Method.” </p>
+<p><strong>Instructions:</strong>
+Choose one target task:</p>
+<ul>
+<li>A short essay, a study guide, a structured explanation, or a small coding task</li>
+</ul>
+<p>Create a rubric with <strong>4 criteria</strong>, each scored <strong>0–5</strong> (total 20). Example criteria: correctness, completeness, structure, clarity.</p>
+<p>Run <strong>5 iterations</strong>:</p>
+<ul>
+<li>Iteration 0: baseline prompt</li>
+<li>Iterations 1–4: revise your prompt to increase your rubric score</li>
+<li>Each iteration must include your rubric (paste it) and you must record the score</li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Your rubric</li>
+<li>Your 5 prompts (Iter 0–4)</li>
+<li>Scores per iteration (table or chart)</li>
+<li>What specifically you changed each iteration and why</li>
+<li>Screenshots of Iter 0 and Iter 4 outputs (minimum)</li>
+</ul>
 </details>
 <details class="references">
 <summary>References</summary>
@@ -1263,6 +1438,7 @@
 <li><a href="https://arxiv.org/pdf/2310.06117">Take a Step Back</a></li>
 </ul>
 </details>
+<p>a</p>
 
 
 
