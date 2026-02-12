@@ -3,3 +3,5 @@
 misc
 site
 *.py
+docs/Episodes/assets/images/Thumbs.db
+*.db
