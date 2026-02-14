@@ -1239,25 +1239,23 @@
 <details class="homework">
 <summary>HW problems</summary>
 <h1 id="episode-061-homework-problems">Episode 06.1 Homework Problems</h1>
-<h2 id="0611-llm-arena-model-comparison-lab-qualitative-evaluation">061.1: LLM Arena model comparison lab (qualitative evaluation)</h2>
+<h2 id="0611-llm-arena-model-comparison">061.1: LLM Arena model comparison</h2>
 <p><strong>Background</strong>:
-This assignment uses (Arena)[[arena.ai]] to compare multiple models using the same prompts. You will practice evaluating qualitative performance (clarity, correctness, instruction-followinlying only on benchmark scores.</p>
+This assignment uses <a href="arena.ai">Arena</a> to compare multiple models using the same prompts. You will practice evaluating qualitative performance (clarity, correctness, instruction-followinlying only on benchmark scores.</p>
 <p><strong>Instructions</strong>:</p>
 <ol>
 <li>
 <p>Pick 3 categories from the list below</p>
-</li>
-<li>
-<p>search</p>
-</li>
+<ul>
+<li>search</li>
 <li>image generation</li>
 <li>reasoning</li>
 <li>creative writing</li>
 <li>coding</li>
 <li>math</li>
 <li>hard problems (MMLU-Pro, GPQA, or another similar dataset)</li>
-<li>
-<p>instruction following</p>
+<li>instruction following</li>
+</ul>
 </li>
 <li>
 <p>Come up with 9 prompts total (3 prompts per category) and ask the prompts to Arena.</p>
@@ -1360,46 +1358,41 @@ This assignment uses (Arena)[[arena.ai]] to compare multiple models using the sa
 </tbody>
 </table>
 <hr />
-<h2 id="0612-ai-tool-due-diliges-list-privacy-governance-compliance-cost-reputation">061.2: AI tool due diliges list (privacy, governance, compliance, cost, reputation)</h2>
+<h2 id="0612-should-i-use-this-ai-tool">061.2: Should I use This AI Tool</h2>
 <p><strong>Background</strong>:
 Before using AI tools with sensitive data, you should evaluate security, privacy, compliance, and vendor governance.  The University of Miami publishes a “Known AI Tools” list that identifies commonly used tools across campus.</p>
 <p><strong>Instructions</strong>:</p>
 <ol>
 <li>
-<p>Open the University’s (Known AI Tools list)[ai.it.miami.edu] and select one AI tool from that list.</p>
+<p>Open the University’s <a href="ai.it.miami.edu">Known AI Tools list</a> and select one AI tool from that list.</p>
 </li>
 <li>
 <p>Identify the hierarchy for your selected tool:</p>
-</li>
-<li>
-<p>company</p>
-</li>
+<ul>
+<li>company</li>
 <li>application</li>
-<li>
-<p>model family (it may be multiple)
-    This mirrors the “hierarchy of a large language model” concept from the slides. </p>
+<li>model family (it may be multiple)</li>
+</ul>
 </li>
 <li>
 <p>Research, determine, and document:</p>
-</li>
-<li>
-<p>where the company is based</p>
-</li>
+<ul>
+<li>where the company is based</li>
 <li>where they keep/process data (regions, countries)</li>
 <li>whether they train on user data (default vs opt-in/opt-out)</li>
 <li>whether humans review user data (and under what conditions)</li>
 <li>compliance claims relevant to sensitive contexts: HIPAA, FERPA, PCI, or other standards the company explicitly claims</li>
 <li>cost (free tiers, student licensing, subscription, usage-based, etc.) </li>
-<li>
-<p>news: find at least 2 recent news articles about the company and characterize the sentiment, with a short justification</p>
+<li>news: find at least 2 recent news articles about the company and characterize the sentiment, with a short justification</li>
+</ul>
 </li>
 <li>
 <p>Make a recommendation: would you recommend this tool?</p>
-</li>
-<li>
-<p>recommend / recommend with constraints / do not recommend</p>
-</li>
+<ul>
+<li>recommend / recommend with constraints / do not recommend</li>
 <li>explain why, using your evidence</li>
+</ul>
+</li>
 </ol>
 <p>Table to fill out (copy/paste into your report and complete it):</p>
 <table>
@@ -1468,26 +1461,24 @@ Qualitative eve when you define criteria before you judge outputs. This assignme
 <ol>
 <li>
 <p>Create a rubric with 5 criteria (each scored 1–5). Example criteria:</p>
-</li>
-<li>
-<p>correctness instruction following (constraints met)</p>
-</li>
+<ul>
+<li>correctness instruction following (constraints met)</li>
 <li>clarity and structure</li>
 <li>reasoning quality (justification, steps, handling ambiguity)</li>
-<li>
-<p>safety/ethics (appropriate refusal, avoids risky guidance)</p>
+<li>safety/ethics (appropriate refusal, avoids risky guidance)</li>
+</ul>
 </li>
 <li>
 <p>Pick 2 models and write 6 prompts (2 prompts from 3 different categories).</p>
 </li>
 <li>
 <p>Blind yourself to model identity during scoring:</p>
-</li>
-<li>
-<p>paste outputs into a doc labeled Output A and Output B (no model names)</p>
-</li>
+<ul>
+<li>paste outputs into a doc labeled Output A and Output B (no model names)</li>
 <li>score using your rubric first</li>
 <li>only then reveal which model produced which output</li>
+</ul>
+</li>
 </ol>
 <p>Prepare a short report that includes:</p>
 <ul>
@@ -1502,16 +1493,18 @@ Qualitative eve when you define criteria before you judge outputs. This assignme
 Benchmarks are useful, but you neesure and what they miss. The slides highlight MMLU-Pro and GPQA as quantitative performance examples. </p>
 <p><strong>Instructions</strong>:</p>
 <ol>
-<li>Read a description of MMLU-Pro and GPQA from a primary source (paper or dataset card). ([arXiv][2])</li>
+<li>Read a description of MMLU-Pro and GPQA from a primary source (paper or dataset card).</li>
 <li>
 <p>For each benchmark, answer:</p>
-</li>
-<li>
-<p>what skill(s) it is intended to measure</p>
-</li>
+<ul>
+<li>what skill(s) it is intended to measure</li>
 <li>what the question format is (multiple choice, domains, etc.)</li>
 <li>3 limitations or ways the benchmark can mislead people (example: test-taking artifacts, domain mismatch, contamination, prompt sensitivity, multiple-choice guessing dynamics, etc.)</li>
-<li>Design 2 “real-world” evaluation tasks you would add to supplement these benchmarks for a university student use case.</li>
+</ul>
+</li>
+<li>
+<p>Design 2 “real-world” evaluation tasks you would add to supplement these benchmarks for a university student use case.</p>
+</li>
 </ol>
 <p>Prepare a short report that includes:</p>
 <ul>
@@ -1531,24 +1524,22 @@ Security and privacy questions are easiest to reason about when you map the full
 </li>
 <li>
 <p>Draw a data lifecycle diagram that incl data a user might paste/upload)</p>
-</li>
-<li>
-<p>processing (what the system does with it)</p>
-</li>
+<ul>
+<li>processing (what the system does with it)</li>
 <li>storage (does anything get retained; where; how long)</li>
 <li>training use (yes/no/unclear)</li>
 <li>human review (yes/no/unclear)</li>
-<li>
-<p>user controls (delete/export/opt-out)</p>
+<li>user controls (delete/export/opt-out)</li>
+</ul>
 </li>
 <li>
 <p>Write 8 “pre-use questions” a student should ask before using the tool with:</p>
-</li>
-<li>
-<p>student information (FERPA-like data)</p>
-</li>
+<ul>
+<li>student information (FERPA-like data)</li>
 <li>healthcare data (HIPAA-like data)</li>
 <li>payment data (PCI-like data)</li>
+</ul>
+</li>
 </ol>
 <p>Prepare a short report that includes:</p>
 <ul>
@@ -1564,27 +1555,25 @@ Even if a model performs well, you still need to consider transparency, governan
 <ol>
 <li>
 <p>Build an intangibles scorecard with 6 categories (1–5 scoring each):</p>
-</li>
-<li>
-<p>company reputation</p>
-</li>
+<ul>
+<li>company reputation</li>
 <li>ESG/ethica and openness</li>
 <li>governance and accountability</li>
 <li>product stability and direction</li>
-<li>
-<p>research and safety culture </p>
+<li>research and safety culture </li>
+</ul>
 </li>
 <li>
 <p>Apply your scorecard to two AI providers/tools (your choice).</p>
 </li>
 <li>
 <p>Create a risk register with at least 6 risks (3 per provider)  - risk statement</p>
-</li>
-<li>
-<p>likelihood (low/med/high)</p>
-</li>
+<ul>
+<li>likelihood (low/med/high)</li>
 <li>impact (low/med/high)</li>
 <li>mitigation (what you would do to reduce risk)</li>
+</ul>
+</li>
 </ol>
 <p>Prepare a short report that includes:</p>
 <ul>
@@ -1600,29 +1589,25 @@ There is no universally “best” model. The best choice depends on use case, p
 <ol>
 <li>
 <p>Choose one use case:</p>
-</li>
-<li>
-<p>study buddy / tutoring for a specific course</p>
-</li>
+<ul>
+<li>study buddy / tutoring for a specific course</li>
 <li>writing assistant for a class papea small project</li>
 <li>research assistant for summarizing sources</li>
-<li>
-<p>creative tool (images or writing)</p>
+<li>creative tool (images or writing)</li>
+</ul>
 </li>
 <li>
 <p>Select 3 candidate tools/models you might use.</p>
 </li>
 <li>
 <p>Create a weighted decision matrix with at least 8 criteria. You must include:</p>
-</li>
-<li>
-<p>qualitative performance (your own tests)</p>
-</li>
+<ul>
+<li>qualitative performance (your own tests)</li>
 <li>privacy/security posture (based on documentation)</li>
 <li>compliance fit (FERPA/HIPAA/PCI relevance, if applicable)</li>
 <li>cost (subscription vs usage-based, if applicable) </li>
-<li>
-<p>at least 2 intangibles (from 061.9) </p>
+<li>at least 2 intangibles (from 061.9) </li>
+</ul>
 </li>
 <li>
 <p>Score each candidate, compute weighted totals, and makepare a short report that includes:</p>
