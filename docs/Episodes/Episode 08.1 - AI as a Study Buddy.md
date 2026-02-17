@@ -35,8 +35,114 @@
 
 ??? homework "HW problems"
     # Episode 07.1 Homework Problems
-
+    ## 071.1: AI-assisted studying with NotebookLM
     
+    **Background**:
+    This assignment focuses on applying evidence-based study strategies (retrieval practice, spaced repetition, blended learning, and active learning) using NotebookLM as a study tool. Your goal is to build a realistic study plan for an upcoming test and evaluate whether NotebookLM materially improved your studying.
+
+    **Instructions**:
+
+    1. Choose an upcoming test in one of your current classes (any subject).
+
+    2. Collect your study materials for that test (lecture notes, slides, textbook sections, handouts, problem sets, etc.).
+
+    4. Use NotebookLM to create each of the following study assets for your test:
+    a) quiz
+    b) flashcards 
+    c) short video script or “video lesson” outline 
+    d) podcast-style explanation 
+    e) infographic outline 
+
+    5. For each of the 5 assets, determine whether NotebookLM was valuable and why.
+
+    Prepare a short report that includes:
+
+    * the 5 NotebookLM assets (or screenshots of what you created)
+    * a short evaluation of each assest
+    * Wich asset was most useful and why
+    * Which asset was least useful and what you would do differently next time
+
+    ---
+
+    ## 071.2: Teach-back with an LLM (active learning)
+
+    ** Background**:
+    Teach-back is a form of active learning: you learn better when you explain an idea and get feedback on gaps, misconceptions, and missing steps. In this assignment, you will use an LLM as a “curious tutor” that challenges your explanation and helps you refine it.
+
+    **Instructions**:
+
+    1. Choose one topic that will be on your upcoming test (a concept you find difficult or important).
+
+    2. Write a short “teach-back script” from memory (no notes).
+
+    * target length: 250–400 words
+    * include: definition, why it matters, and one example or application
+
+    3. Use an LLM as a tutor to run a teach-back session:
+
+    * paste your teach-back script
+    * ask the model to respond only with questions at first (Socratic style), not explanations
+    * after 6–10 questions, ask the model to diagnose your gaps and provide a corrected explanation (with structure)
+
+    4. Revise your teach-back script one time based on the feedback.
+
+    5. Evaluate whether the LLM improved your understanding or just improved your wording.
+
+    Prepare a short report that includes:
+
+    * your original teach-back script
+    * the LLM questions (at least 6)
+    * the gap diagnosis + corrected explanation
+    * your revised script
+    * a short reflection answering:
+    a) what misunderstanding did the LLM reveal (if any)?
+    b) what was the highest-quality question it asked?
+    c) did it push you toward real understanding or just nicer writing?
+
+    ---
+
+    ## 071.3: Interleaving plan using an LLM (practice discrimination + reduce pattern-matching)
+
+    **Background**:
+    Interleaving means mixing problem types rather than practicing one type in a block. The goal is to train “problem recognition” (figuring out what kind of problem it is) and “strategy selection” (choosing the right method). In this assignment, you will design an interleaving schedule and measure whether it helps.
+
+    **Instructions**:
+
+    1. Choose a subject that includes multiple problem types (math, chemistry, physics, programming, economics, statistics, etc.).
+
+    2. Identify 4–6 problem categories that are likely to appear on your test (for example: “acid-base titration,” “equilibrium,” “stoichiometry,” etc.).
+
+    3. Use an LLM to help you:
+
+    * refine your categories so they are distinct
+    * generate a 7–10 day interleaving practice plan
+    * generate a small set of practice prompts/questions for each category (or identify what you will use from your existing materials)
+
+    4. Your interleaving plan must include:
+
+    * at least 6 practice sessions
+    * each session includes at least 3 different categories
+    * an error log structure (fields you will record after each session)
+
+    Prepare a short report that includes:
+
+    * your category list (with a 1–2 sentence definition of each)
+    * your interleaving plan (day-by-day)
+    * your error log template
+    * a short evaluation section:
+    a) what category was easiest to confuse with another? why?
+    b) what would you change about your plan after your first 2 sessions?
+
+    Table to fill out:
+
+    | Day/session | Categories mixed | Materials used (source) | Time spent | Score / accuracy | Most common error type | Next action (what you will do next time) |
+    | ----------- | ---------------- | ----------------------- | ---------- | ---------------- | ---------------------- | ---------------------------------------- |
+    | 1           |                  |                         |            |                  |                        |                                          |
+    | 2           |                  |                         |            |                  |                        |                                          |
+    | 3           |                  |                         |            |                  |                        |                                          |
+    | 4           |                  |                         |            |                  |                        |                                          |
+    | 5           |                  |                         |            |                  |                        |                                          |
+
 
 
 ??? references "References"
