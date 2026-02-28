@@ -29,7 +29,7 @@
     
     
       
-        <title>How AI Image Generation Works - AI For Me</title>
+        <title>AI Image Generation Lab - AI For Me</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-ai-image-generation-works" class="md-skip">
+        <a href="#ai-image-generation-lab" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              How AI Image Generation Works
+              AI Image Generation Lab
             
           </span>
         </div>
@@ -781,7 +781,7 @@
   <span class="md-ellipsis">
     
   
-    How AI Image Generation Works
+    AI Image Generation Lab
   
 
     
@@ -810,7 +810,7 @@
   <span class="md-ellipsis">
     
   
-    AI in Science
+    AI In Chemestry
   
 
     
@@ -1202,8 +1202,137 @@
 
 
 
-<h1 id="how-ai-image-generation-works">How AI Image Generation Works</h1>
-<p><img alt="This Page is Under Construction" src="../assets/images/under_construction.png" /></p>
+<h1 id="ai-image-generation-lab">AI Image Generation Lab</h1>
+<p><img alt="Episode 09.1: AI Image Generation Lab" src="../assets/images/episode091-header.png" /></p>
+<details class="slides">
+<summary>Lecture Slides</summary>
+<p><div style="width:100%; height:800px;position:relative;padding-top:56.25%;height:0;overflow:hidden;">
+  <iframe
+    src ="https://docs.google.com/file/d/1tgpiWXv9p4ZYMvfnB83vDsRWQiEFyb3a/preview"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
+    allow="autoplay"
+    allowfullscreen>
+  </iframe>
+</div></p>
+<p><a href="../assets/slides/episode091.pptx">Download the slides (PPTX)</a></p>
+</details>
+<details class="recording">
+<summary>Lecture recording</summary>
+<p><div style="width:100%; height:600px;">
+  <!-- YouTube example -->
+  <p>Coming Soon</p>
+  <!-- 
+    <iframe
+      src="https://www.youtube.com/embed/VIDEO_ID"
+      title="Lecture 1 Recording"
+      style="width:100%; height:100%; border:0;"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  -->
+</div>
+<!-- Or Google Drive video:
+<iframe src="https://drive.google.com/file/d/DRIVE_VIDEO_ID/preview"
+        style="width:100%; height:600px; border:0;" allow="autoplay" allowfullscreen></iframe>
+--></p>
+</details>
+<details class="homework">
+<summary>HW problems</summary>
+<h1 id="episode-091-homework-problems">Episode 09.1 Homework Problems</h1>
+<h2 id="0911-paper-deep-dive-prnn-ddpm-clip-unclip-or-stable-diffusion">091.1: Paper Deep-Dive (PRNN, DDPM, CLIP, unCLIP, or Stable Diffusion)</h2>
+<p><strong>Background:</strong>
+Modern image generators and image–text models come from a few foundational research directions covered in lecture: autoregressive image generation (PRNN), diffusion (DDPM), image–text contrastive learning (CLIP), and diffusion+CLIP hybrids (unCLIP / Stable Diffusion).   </p>
+<p><strong>Instructions:</strong>
+Choose one of the following papers from the lecture slides (While you should consult the orginal paper you may also wish to search for addional resources explaining the tecnique I have included some in the refrences for this episoide but you may find your own as well):</p>
+<ul>
+<li>Pixel Recurrent Neural Networks (PRNN): <a href="https://arxiv.org/abs/1601.06759">https://arxiv.org/abs/1601.06759</a> </li>
+<li>Denoising Diffusion Probabilistic Models (DDPM): <a href="https://arxiv.org/abs/2006.11239">https://arxiv.org/abs/2006.11239</a> </li>
+<li>CLIP: <a href="https://openai.com/index/clip/">https://openai.com/index/clip/</a> </li>
+<li>unCLIP (DALL·E 2): <a href="https://cdn.openai.com/papers/dall-e-2.pdf">https://cdn.openai.com/papers/dall-e-2.pdf</a> </li>
+<li>Stable Diffusion: <a href="https://arxiv.org/abs/2112.10752">https://arxiv.org/abs/2112.10752</a> </li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>In your own words, what is the core technique introduced in the paper? (Explain it like you’re teaching it to a smart friend who didn’t take this class.)</li>
+<li>What problem was the technique designed to solve? What was hard about the “previous way” of doing it?</li>
+<li>What are the key inputs and outputs of the technique? (Example: text→image, noisy image→clean image, image+text→scores, etc.)</li>
+<li>What is one assumption the paper relies on that could break in real-world use?</li>
+<li>What is one benefit and one risk of using this technique in products people actually rely on?</li>
+</ul>
+<p><strong>Deliverables:</strong></p>
+<ul>
+<li>A 1–2 page report (bullet points are fine, but must be complete)</li>
+<li>At least 2 cited references (the paper counts as 1; at least 1 additional reference—lecture, blog, docs, or explainer—is required)</li>
+</ul>
+<hr />
+<h2 id="0912-autoregressive-vs-diffusion-model-choice-under-constraints">091.2: Autoregressive vs. Diffusion — Model Choice Under Constraints</h2>
+<p><strong>Background:</strong>
+The lecture contrasts two major families of image generation approaches: autoregressive generation (e.g., PRNN) and diffusion generation (e.g., DDPM, and later Stable Diffusion-style systems).  </p>
+<p><strong>Instructions:</strong>
+You are advising a small team building a “Generate an Image” feature for a student-facing app.</p>
+<p>Pick one model family to recommend:</p>
+<ul>
+<li><strong>Autoregressive image generation</strong> (PRNN-style) 
+  OR</li>
+<li><strong>Diffusion-based image generation</strong> (DDPM-style) </li>
+</ul>
+<p>Prepare a short report that addresses the following:</p>
+<ul>
+<li>Your recommendation (autoregressive or diffusion) and a 1–2 sentence thesis for why.</li>
+<li>
+<p>Evaluate your choice against at least 5 constraints below (you can add your own):</p>
+</li>
+<li>
+<p>latency / time to generate an image</p>
+</li>
+<li>compute cost (training + inference)</li>
+<li>controllability (ability to follow constraints)</li>
+<li>image quality / realism</li>
+<li>diversity vs “samey outputs”</li>
+<li>failure modes (nonsense images, artifacts, mode collapse-like behavior, etc.)</li>
+<li>safety and misuse risk (deepfakes, disallowed content, prompt exploitation)</li>
+<li>reproducibility (getting the “same” image again)</li>
+</ul>
+<hr />
+<h2 id="0913-ddpm-from-tutorial-flowers-mnist-digits-code-modification">091.3: DDPM From Tutorial — Flowers → MNIST Digits (Code Modification)</h2>
+<p><strong>Background:</strong>
+DDPMs learn to generate images by (1) gradually adding noise to real images (forward process), and (2) training a model to reverse that process (denoise) step-by-step until a sample looks like data again. The LearnOpenCV tutorial walks through training a DDPM on a flowers dataset.</p>
+<p><strong>Instructions:</strong>
+Follow this tutorial and get the code running to generate flowers:</p>
+<ul>
+<li>LearnOpenCV DDPM tutorial: <a href="https://learnopencv.com/denoising-diffusion-probabilistic-models/">https://learnopencv.com/denoising-diffusion-probabilistic-models/</a></li>
+</ul>
+<p>Then modify the code so the model generates <strong>MNIST digits</strong> instead of flowers.</p>
+<p><strong>Deliverables:</strong></p>
+<ul>
+<li>
+<p>A short report (1–2 pages) including:</p>
+</li>
+<li>
+<p>link to your google colab notebook</p>
+</li>
+<li>screenshots of flowers outputs and MNIST outputs</li>
+</ul>
+</details>
+<details class="references">
+<summary>References</summary>
+<ul>
+<li><a href="https://arxiv.org/abs/1601.06759">Pixel Recurrent Neural Networks</a></li>
+<li><a href="https://www.youtube.com/watch?v=zc5NTeJbk-k">Algorithmic Simplicity Autoregressive</a></li>
+<li><a href="https://arxiv.org/abs/2006.11239">Denoising Diffusion Probabilistic Models</a></li>
+<li><a href="https://learnopencv.com/denoising-diffusion-probabilistic-models/">Diffusion Demo</a></li>
+<li><a href="https://www.youtube.com/watch?v=iv-5mZ_9CPY">3Blue1Brown Diffusion</a></li>
+<li><a href="https://arxiv.org/abs/2010.02502">Denoising Diffusion Implicit Models</a></li>
+<li><a href="https://www.youtube.com/watch?v=r4V0vLhYZIQ">Sorush Mehraban Diffusion Models</a></li>
+<li><a href="https://openai.com/index/clip/">CLIP</a></li>
+<li><a href="https://cdn.openai.com/papers/dall-e-2.pdf">unCLIP (Dalle-2) -https</a></li>
+<li><a href="https://medium.com/augmented-startups/how-does-dall-e-2-work-e6d492a2667f">Dalle 2 Article</a></li>
+<li><a href="https://openai.com/index/dall-e-2/">Open AI Dalle - https</a></li>
+<li><a href="https://arxiv.org/abs/2112.10752">Stable Diffusion</a></li>
+<li><a href="https://stability.ai/blog/stable-diffusion-public-release">Stable Diffusion Demo</a></li>
+<li><a href="https://stable-diffusion-art.com/how-stable-diffusion-work/#Text-to-image">How SD works</a></li>
+</ul>
+</details>
 
 
 
